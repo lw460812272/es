@@ -38,6 +38,8 @@ public class EsApplicationTests {
     public void deleteDataById() {
 
         ElasticsearchUtil.deleteDataById( "test","one","2");
+
+
     }
 
 }
